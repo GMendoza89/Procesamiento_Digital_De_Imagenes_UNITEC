@@ -45,15 +45,13 @@ print("Valor medio de intencidades de Azul es: "+str(mBlue))
 print("Valor medio de intencidades de verde es: "+str(mGreen))
 
 plt.plot(hRed,'r')
-plt.plot(pltoMedRed,'r')
+#plt.plot(pltoMedRed,'r')
 plt.plot(hBlue,'b')
-plt.plot(pltoMedBlue,'b')
+#plt.plot(pltoMedBlue,'b')
 plt.plot(hGreen,'g')
-plt.plot(pltoMedGreen,'g')
+#plt.plot(pltoMedGreen,'g')
 plt.title("Histograma de color")
 plt.show()
-
-
 umbralRed = int(mRed)
 umbralGreen = int(mGreen)
 umbralBlue = int(mBlue)
